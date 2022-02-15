@@ -14,6 +14,7 @@ $ # (Unix/Mac) export FLASK_ENV=development
 $ # (Windows) set FLASK_ENV=development
 $ # (Powershell) $env:FLASK_ENV = "development"
 $
+
 $ # Start the application (development mode)
 $ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
 $ # --port=5000    - specify the app port (default 5000)  
