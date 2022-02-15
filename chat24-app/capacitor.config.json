@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "chat24-app",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

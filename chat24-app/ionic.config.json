@@ -1,0 +1,7 @@
+{
+  "name": "chat24-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "ionic-angular"
+}
