@@ -19,3 +19,8 @@ $ # Start the application (development mode)
 $ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
 $ # --port=5000    - specify the app port (default 5000)  
 $ flask run --host=0.0.0.0 --port=5000 --debugger
+
+https://medium.com/@shalandy/deploy-git-subdirectory-to-heroku-ea05e95fce1f
+heroku login
+heroku git:remote -a my-app
+git subtree push --prefix path/to/subdirectory heroku master
