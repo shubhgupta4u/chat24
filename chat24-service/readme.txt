@@ -13,6 +13,10 @@ $ # Set up the DEBUG environment
 $ # (Unix/Mac) export FLASK_ENV=development
 $ # (Windows) set FLASK_ENV=development
 $ # (Powershell) $env:FLASK_ENV = "development"
+
+$ # Set up the Heroku postgresql db environment
+$ (Powershell) $env:DATABASE_URL ="postgresql://dtqwhjbduigvtc:af12866ac4a3de0df6c4a754aebe35ba19fa49dea3efd05fe7b33ab275976a7c@ec2-3-227-195-74.compute-1.amazonaws.com:5432/d513bil98439bp"
+$ (Windows) set DATABASE_URL="postgresql://dtqwhjbduigvtc:af12866ac4a3de0df6c4a754aebe35ba19fa49dea3efd05fe7b33ab275976a7c@ec2-3-227-195-74.compute-1.amazonaws.com:5432/d513bil98439bp"
 $
 
 $ # Start the application (development mode)
