@@ -24,3 +24,5 @@ https://medium.com/@shalandy/deploy-git-subdirectory-to-heroku-ea05e95fce1f
 heroku login
 heroku git:remote -a my-app
 git subtree push --prefix path/to/subdirectory heroku master
+
+E:\Repository\Github\chat24\chat24-service>git subtree push --prefix chat24-service heroku master

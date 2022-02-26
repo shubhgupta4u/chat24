@@ -10,7 +10,7 @@ from datetime import datetime,timedelta
 from flask import request, jsonify
 
 @blueprint.route('/api/v1/user', methods=['GET'])
-@requires_access_level(ROLE['admin'])
+@requires_access_level(ROLE['guest'])
 @login_required
 def user():
     user = Users.query.filter_by(id=current_user.id).first()
