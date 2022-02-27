@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.app-header {
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    display: block;
+    width: 100%;
+  }
+  
+.app-footer {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 10;
+    display: block;
+    width: 100%;
+  }
+  
+  .app-navbar.toolbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+.app-navbar{
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+  .fixed-content {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: block;
+    margin-top: 56px;
+}
+.toolbar-background {
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    pointer-events: none;
+    contain: strict;
+  background: #eee;
+  -webkit-box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.3);
+  box-shadow:  0 4px 10px -2px rgba(0, 0, 0, 0.3);
+}
+.toolbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.toolbar-md {
+    padding: 4px;
+    min-height: 56px;
+  }
+  
+  .toolbar-background-md {
+    border-color: #b2b2b2;
+    background: #f8f8f8;
+  }
+  
+.toolbar-content-md {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+    min-width: 0;
+    max-width: 100%;
+}
+// x-sign {
+//     --interval: 1s;
+//     margin-left: 10px;
+//     text-shadow: 
+//       0 0 10px var(--color1),
+//       0 0 20px var(--color2),
+//       0 0 40px var(--color3),
+//       0 0 80px var(--color4);
+//     will-change: filter, color;
+//     filter: saturate(60%);
+//     animation: flicker steps(100) var(--interval) 1s infinite;
+//   }
+//   x-sign:nth-of-type(1) {
+//     color: lightyellow;
+//     --color1: yellow;
+//     --color2: gold;
+//     --color3: orange;
+//     --color4: darkred;
+//     font-family: Sriracha;
+//   }
+//   @keyframes flicker {
+//     50% {
+//       color: tomato;
+//       filter: saturate(200%) hue-rotate(20deg);
+//     }
+//   }
+  p.logo {
+    display: inline;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: dodgerblue;
+    letter-spacing: 5px;
+    text-shadow: 10px 10px 25px skyblue,
+      -10px 10px 25px skyblue,
+      -10px -10px 25px skyblue,
+      10px -10px 25px skyblue;
+  }

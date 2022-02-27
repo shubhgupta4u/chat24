@@ -21,7 +21,7 @@ class Users(db.Model, UserMixin):
     name = db.Column(db.String(64))
     password = db.Column(db.String(250))
     email = db.Column(db.String(250))
-    accessToken = db.Column(db.String(255))
+    accessToken = db.Column(db.String(500))
     role = db.Column(db.Integer)
     authProvider = db.Column(db.String(64))
     loginDateTime = db.Column(db.DateTime, default=datetime.utcnow())

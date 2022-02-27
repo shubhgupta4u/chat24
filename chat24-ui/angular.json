@@ -31,9 +31,11 @@
               "projects/chat24-users-app/src/assets"
             ],
             "styles": [
-              "projects/chat24-users-app/src/styles.scss"
+              "projects/chat24-users-app/src/styles/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -99,9 +101,11 @@
               "projects/chat24-users-app/src/assets"
             ],
             "styles": [
-              "projects/chat24-users-app/src/styles.scss"
+              "projects/chat24-users-app/src/styles/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           }
         }
       }
@@ -136,7 +140,9 @@
             "styles": [
               "projects/chat24-admin-app/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -204,7 +210,9 @@
             "styles": [
               "projects/chat24-admin-app/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           }
         }
       }

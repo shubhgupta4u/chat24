@@ -2,11 +2,18 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "types": [],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
     "baseUrl": "./",
     "paths": {
       "chat24-lib": [
         "dist/chat24-lib/chat24-lib",
         "dist/chat24-lib"
+      ],
+      "jquery-ui": [
+        "node_modules/@types/jqueryui/index"
       ]
     },
     "outDir": "./dist/out-tsc",
